@@ -23,7 +23,7 @@ RM		:= rm -f
 
 CC	?= gcc
 
-CFLAGS	?= -O2
+CFLAGS	?= -static -O2
 # When debugging, use the following instead
 #CFLAGS	:= -O -g
 CFLAGS	+= -Wall
