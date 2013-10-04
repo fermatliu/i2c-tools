@@ -15,6 +15,8 @@ TOOLS_CFLAGS	:= -Wstrict-prototypes -Wshadow -Wpointer-arith -Wcast-qual \
 
 TOOLS_TARGETS	:= i2cdetect i2cdump i2cset i2cget
 
+LDFLAGS         += -static
+
 #
 # Programs
 #
